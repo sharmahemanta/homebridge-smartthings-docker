@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 
-RUN npm install -g --unsafe-perm homebridge \
+RUN npm install -g homebridge \
     && npm install -g homebridge-smartthings \
     && mkdir -p /root/.homebridge
 

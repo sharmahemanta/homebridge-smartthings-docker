@@ -1,1 +1,14 @@
 homebridge for home
+
+Docker image is at
+https://cloud.docker.com/repository/docker/isharma/homebridge-smartthings-docker
+
+Running the container:
+
+docker run --rm -p 8000:8000 --name homebridge isharma/homebridge-smartthings-docker:latest
+
+Resources:
+
+https://homebridge.io/
+https://github.com/nfarina/homebridge
+https://www.npmjs.com/package/homebridge-smartthings
