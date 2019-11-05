@@ -1,11 +1,11 @@
 homebridge for home
 
-Docker image is at
+Docker image is at (now Private)
 https://cloud.docker.com/repository/docker/isharma/homebridge-smartthings-docker
 
 Running the container:
 
-docker run --rm -p 8000:8000 --name homebridge isharma/homebridge-smartthings-docker:latest
+sudo docker run --rm -d -p 8000:8000 -p 51826:51826 --name homebridge isharma/homebridge-smartthings-docker:latest
 
 Resources:
 
