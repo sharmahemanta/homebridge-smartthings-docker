@@ -1,0 +1,20 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "HOMEBRIDGE_USERNAME",
+        "port": 51826,
+        "pin": "HOMEBRIDGE_PIN"
+    },
+
+    "description": "Setting for smartthings homebridge for homekit",
+
+    "platforms": [
+        {
+            "platform" : "SmartThings",
+            "name" : "SmartThings",
+            "app_url": "https://graph-na02-useast1.api.smartthings.com:443/api/smartapps/installations/",
+            "app_id" : "APP_ID",
+            "access_token": "ACCESS_TOKEN"
+        }
+    ]
+}
